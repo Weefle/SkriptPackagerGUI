@@ -311,7 +311,7 @@ public class CompileFrame extends JFrame{
     		Map<String, Object> yml_config = new HashMap<String, Object>();
     		
     		Map<String, Object> skript_links = new HashMap<String, Object>();
-    		skript_links.put("any-version", "http://nfell2009.uk/skript/downloads/latest/Skript.jar");
+    		skript_links.put("any-version", "https://github.com/SkriptLang/Skript/releases/download/2.6.2/Skript.jar");
     		yml_config.put("skript-links", skript_links);
     		
     		Map<String, Object> scripts = new LinkedHashMap<String, Object>();
